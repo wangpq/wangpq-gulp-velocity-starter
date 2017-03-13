@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>gulp-velocity example page</title>
+<link rel="stylesheet" href="../css/demo.css">
+</head>
+<body>
+<h1>欢迎您，开始学习和使用velocity!</h1>
+
+<h1>macro</h1>    
+#parse('./direc/macro.vm')
+
+<h1>define</h1>   
+#parse('./direc/define.vm')
+
+<h2>set</h2> 
+#parse('./direc/set.vm')
+
+<h2>if</h2> 
+#parse('./direc/if.vm')
+
+<h2>loop</h2> 
+#parse('./direc/loop.vm')
+
+<h2>evaluate</h2> 
+#parse('./direc/evaluate.vm')
+
+<h2>expr</h2> 
+#parse('./expr/expr.vm')
+
+<h2>ref</h2> 
+#parse('./ref/ref.vm')
+
+<h2>include</h2> 
+#include('./static/plain-text.txt','./static/more_include.txt')
+
+<h2>comment</h2> 
+## comment
+#* block comment *#
+#[[ unparsed content ]]#
+
+<h1>祝贺你结束学习velocity!</h1> 
+
+<script src="../js/jquery/jquery.min.js"></script>
+<script src="../js/app/demo.js"></script>
+</body>
+</html>

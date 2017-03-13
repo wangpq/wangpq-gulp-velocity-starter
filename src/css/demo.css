@@ -1,0 +1,19 @@
+body {
+  color: #f938ab;
+  font-size: 18px;
+  background-color: #f5f5f5; }
+
+.hd-title {
+  font-weight: bold;
+  color: #f938ab; }
+
+ul {
+  line-height: 40px;
+  text-transform: capitalize;
+  background-color: #333; }
+  ul a {
+    display: block;
+    padding: 0 10px;
+    color: #fff; }
+    ul a:hover {
+      color: #ddd; }

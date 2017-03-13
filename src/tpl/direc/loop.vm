@@ -1,0 +1,61 @@
+##======================loop.vm begin ==========================
+
+#foreach($entry in $user.entrySet())
+  <p>key: $entry.key, value: $entry.value </p>
+#end
+
+<br/>
+
+#foreach($key in $user.keySet())
+  $velocityCount: $key
+#end
+
+<br/>
+
+#foreach($fav in $user.favorites) 
+  $foreach.count: $fav 
+  #if ($foreach.count >= 3) 
+  	#break 
+  #end
+#end
+
+<br/>
+
+<ul>
+#foreach( $product in $allProducts )
+    <li>$product</li>
+#end
+</ul> 
+
+<br/><br/>
+
+<ul>
+#foreach( $key in $allProductsTwo.keySet() )
+    <li>Key: $key -> Value: $allProductsTwo.get($key)</li>
+#end
+</ul> 
+
+
+#foreach( $customer in $customerList )
+    $customer.name #if( $foreach.hasNext ), #end
+#end
+
+##$foreach.first,$foreach.last not supported
+<table>
+#foreach( $customer in $customerList )
+    <tr>
+    	<td>$foreach.index</td>
+    	<td>
+    	#if($foreach.first)
+    	--first--
+    	#end
+    	#if($foreach.last)
+    	--last--
+    	#end
+    	$customer.name
+    	</td>
+    </tr>
+#end
+</table> 
+
+##======================loop.vm end ==========================

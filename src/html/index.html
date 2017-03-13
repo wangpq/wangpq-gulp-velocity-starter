@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>gulp-velocity example page</title>
+<link rel="stylesheet" href="../css/demo.css">
+</head>
+<body>
+<h1>欢迎您，开始学习和使用velocity!</h1>
+
+<h1>macro</h1>    
+
+
+
+
+Arguments of commonMacro: [Hello , fool2fish, !]
+
+
+Arguments of commonMacro: [Hello , everyone, !]
+
+
+ 
+
+Argument of blockMacro: Hello
+Body content: 
+--->bodyContent
+Name: fool2fish
+bodyContent<---
+
+ 
+
+
+
+
+
+local macro was called
+
+
+local macro was called again
+
+
+
+
+<h1>define</h1>   
+
+
+
+user info:
+name: fool2fish
+github: https://github.com/fool2fish
+
+
+
+<h2>set</h2> 
+
+
+Company: alipay.com
+
+
+$title in alipay.com
+
+
+<h2>if</h2> 
+
+Date: 2014 - 3 - 28
+ 
+    <p>Today is not sunny.</p>
+
+
+
+<h2>loop</h2> 
+
+
+
+  <p>key: name, value: fool2fish </p>
+
+  <p>key: prop, value: name </p>
+
+  <p>key: github, value: https://github.com/fool2fish </p>
+
+  <p>key: favorites, value: food,travel,comic,... </p>
+
+
+<br/>
+
+
+  1: name
+
+  2: prop
+
+  3: github
+
+  4: favorites
+
+
+<br/>
+
+ 
+  1: food 
+  
+ 
+  2: travel 
+  
+ 
+  3: comic 
+   
+  	
+
+<br/>
+
+<ul>
+
+    <li>book</li>
+
+    <li>pen</li>
+
+    <li>rubber</li>
+
+</ul> 
+
+<br/><br/>
+
+<ul>
+
+    <li>Key: book -> Value: 100</li>
+
+    <li>Key: pen -> Value: 50</li>
+
+    <li>Key: rubber -> Value: 10</li>
+
+</ul> 
+
+
+
+    wangpq , 
+
+    Jim , 
+
+    jane 
+
+
+
+<table>
+
+    <tr>
+    	<td>0</td>
+    	<td>
+    	
+    	
+    	wangpq
+    	</td>
+    </tr>
+
+    <tr>
+    	<td>1</td>
+    	<td>
+    	
+    	
+    	Jim
+    	</td>
+    </tr>
+
+    <tr>
+    	<td>2</td>
+    	<td>
+    	
+    	
+    	jane
+    	</td>
+    </tr>
+
+</table> 
+
+
+
+<h2>evaluate</h2> 
+
+@@$user.name@@
+@@fool2fish@@
+
+
+<h2>expr</h2> 
+>>>expr.vm
+
+
+First item of range: 1
+
+First item of list: fool2fish
+
+One of map's key-value pair: id = 00000001
+
+Unary operation: false
+
+Integer: 0
+
+Float: 10.1
+
+Addition: 6
+
+Dstring: my name is $user.name
+
+Dstring: my name is fool2fish
+
+expr.vm<<<
+
+<h2>ref</h2> 
+>>>ref.vm
+ID: 00000001
+Name: fool2fish fool2fish fool2fish
+Name length: 9
+Nick:  ${user.nick}
+Github: https://github.com/fool2fish
+Favorites length: 4
+Most favorite: food
+method.foo() is called!
+$method.bar()
+$nonexist
+$nonexist.property
+$nonexist.property.method()
+
+ref.vm<<<
+
+<h2>include</h2> 
+>>>plain-text
+=======================
+these code is not parsed!
+eg.
+	id is : $id
+	name	: $user.name 
+=======================
+plain-text<<<>>>more-include-text
+=======================
+these code is not parsed!
+eg.
+	id is : $id
+	name	: $user.name 
+=======================
+more-include-text<<<
+
+<h2>comment</h2> 
+
+
+ unparsed content 
+
+<h1>祝贺你结束学习velocity!</h1> 
+
+<script src="../js/jquery/jquery.min.js"></script>
+<script src="../js/app/demo.js"></script>
+</body>
+</html>
