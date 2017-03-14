@@ -83,7 +83,7 @@ gulp.task('watch', function() {
     gulp.watch(['./src/less/*.less'], ['less']);
     gulp.watch(['./src/css/*.css'], ['style']);
 	gulp.watch([config.tpl_config.root + '**/*.vm'], ['tpl']);
-	gulp.watch([config.tmp_output + '/*.html'], ['html']);
+	gulp.watch([config.tmp_output + '**/*.html'], ['html']);
     gulp.watch(['./src/js/app/*.js'], ['javascript']);
 });
 

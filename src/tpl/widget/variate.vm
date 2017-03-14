@@ -1,0 +1,14 @@
+<script>
+var dynSite=$!storeConfig.dynSite
+  , staSite=$!storeConfig.staSite
+  , imgServer=$!storeConfig.imageserver
+  , secureURL=$!storeConfig.secureURL
+  , pictureserver=$!storeConfig.pictureserver
+  , cookieDomain=$!storeConfig.cookieDomain
+  , stageJsServer=$!storeConfig.stageJsServer
+  , stageImageServer=$!storeConfig.stageImageServer
+  , stageCssServer=$!storeConfig.stageCssServer
+  , cssserver=$!storeConfig.cssserver
+  , jsserver=$!storeConfig.jsserver
+  , protocol=$!storeConfig.protocol;
+</script>

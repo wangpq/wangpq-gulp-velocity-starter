@@ -1,0 +1,491 @@
+.wbox {
+	width: 1200px;
+	margin: 0 auto
+}
+.dt-side {
+	width: 210px;
+	float: left;
+	display: _inline
+}
+.dt-main {
+	width: 980px;
+	float: right;
+	display: _inline
+}
+
+.prd-main-l,
+.prd-main-r{
+   float:left; 
+}
+
+.category-box {
+    height: 38px;
+    border-bottom: 2px solid #d7000f
+}
+
+.category {
+    height: 38px
+}
+
+.category a:hover {
+    text-decoration: none
+}
+
+.sidecategory {
+    position: relative;
+    z-index: 995
+}
+
+.sidecategory h2 {
+    width: 200px;
+    height: 40px;
+    background: #d7000f;
+    float: left;
+    opacity: .9;
+    filter: Alpha(opacity=90)
+}
+
+.sidecategory h2 a {
+    color: #fff;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 15px;
+    float: left
+}
+
+.sidecategory h2 span {
+    float: right;
+    display: block;
+    margin: 14px 17px;
+    width: 18px;
+    height: 12px;
+    background: url(/gmpro/1.0.0/public/1.0.0/css/i/ui.png) 0 -1344px;
+    overflow: hidden
+}
+
+.sidecategory h2.hover span {
+    background-position: 0 -1344px
+}
+
+.sidecategory .lisbg {
+    opacity: .9;
+    filter: Alpha(opacity=90);
+    width: 200px;
+    height: 450px;
+    color: #333;
+    background: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none
+}
+
+.sidecategory .lisnav {
+    width: 200px;
+    height: 450px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    _left: -200px;
+    z-index: 9999;
+    display: none
+}
+
+.sidecategory .lisnav-ul {
+    position: relative;
+    z-index: 9999
+}
+
+.sidecategory .lisnav li {
+    _height: 30px;
+    _position: relative;
+    _overflow: hidden
+}
+
+.sidecategory .lisnav h3 {
+    position: relative;
+    padding-left: 15px;
+    height: 30px;
+    line-height: 30px;
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 1px
+}
+
+.sidecategory .lisnav h3 a {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei',arial;
+    font-weight: 200;
+    display: inline-block;
+    *margin-right: 0;
+    margin-right: 3px
+}
+
+.sidecategory .lisnav li.bgw {
+    background: #fbfbfb;
+    margin-left: 1px;
+    _margin-left: 0;
+    *margin-left: 0;
+    width: 200px;
+    _width: 202px
+}
+
+.sidecategory .lisnav li.bgw h3 a {
+    color: #333
+}
+
+.sidecategory .lisnav li.bgw h3 a:hover {
+    color: #e3101e
+}
+
+.sidecategory .lisnav .line {
+    display: none;
+    height: 1px;
+    width: 181px;
+    background: #fff;
+    opacity: .07;
+    filter: Alpha(opacity=7);
+    position: absolute;
+    top: 0;
+    left: 15px;
+    overflow: hidden
+}
+
+.sidecategory .lisnav li.lst,.sidecategory .lisnav li.first {
+    height: 29px;
+    line-height: 29px;
+    overflow: hidden
+}
+
+.sidecategory .lisnav li.first {
+    margin-top: 1px
+}
+
+.sidecategory .subnav {
+    background-color: #fff;
+    min-height: 448px;
+    _height: 448px;
+    max-height: 515px;
+    border-left: none;
+    position: absolute;
+    top: 0;
+    left: 199px;
+    z-index: 99;
+    width: 1000px;
+    display: none
+}
+
+.w990 .subnav {
+    width: 789px
+}
+
+.w1000 .subnav {
+    width: 799px
+}
+
+.mainnav {
+    float: left;
+    height: 38px;
+    width: 800px;
+    overflow: hidden;
+    position: relative
+}
+
+.w990 .mainnav {
+    width: 790px
+}
+
+.mainnav li {
+    position: relative;
+    float: left;
+    padding: 0 16px;
+    text-align: center;
+    line-height: 38px;
+    white-space: nowrap
+}
+
+.mainnav li.hide {
+    display: none
+}
+
+.mainnav li a {
+    color: #000;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Microsoft YaHei'
+}
+
+.mainnav li a:hover {
+    color: #d7000f
+}
+
+.mainnav li.cur a,.mainnav li a:hover {
+    color: #d7000f
+}
+
+.sidecategory .dropDownMenu{
+	width: 200px;
+	height: 450px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 9999;
+	display: none;
+}
+
+/* 面板框 */
+.panel-box {
+	width: 208px;
+	border: 1px solid #eee;
+	margin-bottom: 10px
+}
+.panel-box.noborder{
+	border: none;
+	width: 210px;
+}
+.panel-box.fluid{
+	width: 100%;	
+}
+.panel-box .panel-hd{
+	height: 36px;
+	padding-left: 10px;
+	color: #666;
+	font: 600 12px/36px 'microsoft yahei';
+	background: #f6f6f6
+}
+.panel-box .panel-hd:after,
+.panel-box .panel-bd:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.panel-box .panel-bd .nav{
+	padding: 15px 10px 5px 10px
+}
+.panel-box .panel-bd .nav a {
+	height: 24px;
+	line-height: 24px;
+	width: 75px;
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 10px;
+	color: #666
+}
+.panel-box .panel-bd .nav a:hover {
+	color: #e3101e
+}
+.panel-box .panel-bd .nav a.cur {
+	color: #e3101e;
+	text-decoration: underline
+}
+.panel-box .panel-bd .nav a.active {
+	background-color: #eef1ff;
+	margin: 0 10px 5px 0;
+	padding: 0 4px;
+	width: auto
+}
+
+/* 面板图片展示 */
+.panel-list {
+	padding: 15px 10px
+}
+.panel-list li {
+	vertical-align: bottom;
+	text-align: center;
+	margin-top: -1px
+}
+.panel-list li h2 {
+	color: #666;
+	font-family: "新宋";
+	text-align: left;
+	word-break: break-all;
+	height: 36px;
+	overflow: hidden;
+	margin: 5px auto
+}
+.panel-list li a:hover .text,
+.panel-list li a:hover,
+.panel-list li h2:hover {
+	text-decoration: underline;
+	color: #e3101e
+}
+.panel-list li p {
+	font-weight: 400;
+	font-size: 18px;
+	text-align: left;
+	font-family: arial;
+	margin-top: 7px
+}
+.panel-list li p.price {
+	color: #e3101e;
+	font-family: arial;
+}
+.panel-list li a .text {
+	color: #666;
+	font-family: "新宋";
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+	text-align: left;
+}
+
+/* 面板选项卡 */
+.panel-tab-hd {
+	margin-top: 10px;
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+	background: #f3f3f3
+}
+.panel-tab-hd a {
+	width: 60px;
+	display: inline-block;
+	text-align: center;
+	font-family: "microsoft yahei";
+	color: #666
+}
+.panel-tab-hd a.cur {
+	font-family: "microsoft yahei";
+	color: #e3101e;
+	text-decoration: none;
+	font-weight: 600;
+	border: 1px solid #ccc;
+	background: #fff
+}
+.panel-tab-bd {
+	margin-top: -2px;
+	overflow: hidden;
+	position: relative;
+	min-height: 426px
+}
+.panel-tab .flag_active {
+	top: 29px;
+	position: absolute;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden;
+	width: 62px;
+	left: 0;
+}
+.panel-tab .temp_1 {
+	height: 6px;
+	position: relative;
+	z-index: 1;
+	background: #fff;
+}
+.panel-tab .liners {
+	position: absolute;
+	color: #ccc;
+}
+.panel-tab .dn{
+	display:none;
+}
+
+
+.tonglei_ul {
+	display: none
+}
+.tonglei_ul li {
+	position: relative;
+	padding: 10px 0;
+	border-top: 1px solid #eee;
+	height: 50px
+}
+.tonglei_ul .tonglei_link {
+	width: 96px;
+	margin-left: 82px;
+	line-height: 18px
+}
+.tonglei_ul .tonglei_link_name {
+	height: 36px;
+	overflow: hidden
+}
+.tonglei_ul .tonglei_link_name a {
+	font-family: "microsoft yahei";
+	color: #404040;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0;
+	font-weight: 400;
+}
+.tonglei_ul .tonglei_sz {
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	background: #fff;
+	text-align: center;
+	font-size: 10px;
+	color: #E20F20;
+	position: absolute;
+	border: 1px solid #DDD;
+	top: 10px;
+	left: 0
+}
+.tonglei_ul .tonglei_img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	left: 22px
+}
+.tonglei_ul .tonglei_jg_val {
+	font-family: Arial;
+	color: #e3101e;
+	font-weight: 700
+}
+
+
+.fixed-top {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	display: block;
+	_position: absolute;
+	_bottom: auto;
+	_top: expression(eval(document.documentElement.scrollTop));
+}
+
+/* 选项卡 */
+.pdtl-tab {
+	width: 980px
+}
+.pdtl-tab .prdtitbox {
+	height: 36px;
+	background: #f6f6f6;
+	border: 1px solid #eee
+}
+.pdtl-tab .prdtitbox li {
+	height: 31px;
+	font: 600 14px/36px 'Microsoft YaHei';
+	padding: 0 20px;
+	float: left
+}
+.pdtl-tab .prdtitbox a {
+	color: #5a5a5a
+}
+.pdtl-tab .prdtitbox a:hover {
+	color: #e3101e;
+	text-decoration: none
+}
+.pdtl-tab .prdtitbox .cur {
+	height: 35px;
+	border-top: 3px solid #e3101e;
+	background: #fff;
+	margin: -1px 0 0
+}
+.pdtl-tab .prdtitbox .cur a {
+	color: #e3101e
+}
+
+

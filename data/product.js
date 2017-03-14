@@ -1,0 +1,229 @@
+module.exports = {
+    "page" :{
+        "keywords":"三洋（SANYO）KFRD-35GW/H1-B空调",
+        "description":"国美在线提供三洋（SANYO）KFRD-35GW/H1-B空调,购买三洋（SANYO）KFRD-35GW/H1-B空调就到国美在线。有国美，生活美！",
+        "title":"三洋（SANYO）KFRD-35GW/H1-B空调【图片 价格 品牌 报价】-国美在线",
+        "bread":[
+            {
+                "href":"http://www.atguat.com.cn/",
+                "linkOtherAttr":{
+                },
+                "target":"",
+                "text":"首11页",
+                "textOtherAttr":{
+                },
+                "title":"首11页"
+            },
+            {
+                "href":"http://electronic.atguat.com.cn/",
+                "linkOtherAttr":{
+                },
+                "target":"",
+                "text":"电视、冰箱、洗衣机、空调",
+                "textOtherAttr":{
+                },
+                "title":"电视、冰箱、洗衣机、空调"
+            },
+            {
+                "href":"",
+                "linkOtherAttr":{
+                },
+                "target":"",
+                "text":"空调",
+                "textOtherAttr":{
+                },
+                "title":"空调"
+            },
+            {
+                "href":"http://list.atguat.com.cn/cat10000062.html",
+                "linkOtherAttr":{
+                },
+                "target":"",
+                "text":"壁挂式空调",
+                "textOtherAttr":{
+                },
+                "title":"壁挂式空调"
+            },
+            {
+                "href":"http://list.atguat.com.cn/cat10000062-00-0-48-1-0-0-0-1-2035-0-0-0-0-0-0-0-0.html",
+                "linkOtherAttr":{
+                },
+                "target":"",
+                "text":"三洋",
+                "breadSign":true,
+                "textOtherAttr":{
+                },
+                "title":"三洋"
+            },
+            {
+                "href":"http://item.atguat.com.cn/9100007800-1000009775.html",
+                "linkOtherAttr":{
+                },
+                "target":"",
+                "text":"三洋（SANYO）KFRD-35GW/H1-B空调",
+                "textOtherAttr":{
+                },
+                "title":"三洋（SANYO）KFRD-35GW/H1-B空调"
+            }
+        ],
+        "serviceTags":{
+            "back_no":"不支持7天无理由退货",
+            "genuine":"测试正品保障标签",
+            "warranty_180":"测试保180天"
+        },
+        "prdInfo":{
+            "affixAttr":{
+                "coo8Sign":"true"
+            },
+            "brand":"三洋",
+            "brandCode":"00215",
+            "brandId":"10000022",
+            "buyWay":[
+
+            ],
+            "bztType":-1,
+            "channel":"",
+            "description":"三洋（SANYO）KFRD-35GW/H1-B空调",
+            "detailHref":"http://item.atguat.com.cn/9100007800-1000009775.html",
+            "energyState":0,
+            "gomePrice":2990,
+            "goodsColor":[
+
+            ],
+            "goodsImgs":[
+                {
+                    "href":"http://item.atguat.com.cn/bigimage/9100007800-1000009775.html",
+                    "imgOtherAttr":{
+
+                    },
+                    "linkOtherAttr":{
+
+                    },
+                    "src":"http://gfs.atguat.net.cn/T1bXDTBm_v1RCvBVdK"
+                },
+                {
+                    "href":"http://item.atguat.com.cn/bigimage/9100007800-1000009775.html",
+                    "imgOtherAttr":{
+
+                    },
+                    "linkOtherAttr":{
+
+                    },
+                    "src":"http://gfs2.atguat.net.cn/T1hZKTBvbv1RCvBVdK"
+                },
+                {
+                    "href":"http://item.atguat.com.cn/bigimage/9100007800-1000009775.html",
+                    "imgOtherAttr":{
+
+                    },
+                    "linkOtherAttr":{
+
+                    },
+                    "src":"http://img.atguat.net.cn/image/img/201103/c11/1000000152/1000009161"
+                },
+                {
+                    "href":"http://item.atguat.com.cn/bigimage/9100007800-1000009775.html",
+                    "imgOtherAttr":{
+
+                    },
+                    "linkOtherAttr":{
+
+                    },
+                    "src":"http://gfs2.atguat.net.cn/T1TzxTBQEv1RCvBVdK"
+                },
+                {
+                    "href":"http://item.atguat.com.cn/bigimage/9100007800-1000009775.html",
+                    "imgOtherAttr":{
+
+                    },
+                    "linkOtherAttr":{
+
+                    },
+                    "src":"http://gfs.atguat.net.cn/T1gzETBXZT1RCvBVdK"
+                },
+                {
+                    "href":"http://item.atguat.com.cn/bigimage/9100007800-1000009775.html",
+                    "imgOtherAttr":{
+
+                    },
+                    "linkOtherAttr":{
+
+                    },
+                    "src":"http://img.atguat.net.cn/image/img/201103/c11/1000000152/1000009164"
+                }
+            ],
+            "goodsModel":[
+
+            ],
+            "htmlHref":"http://desc.atguat.com.cn/html/desc/201202/desc257/1000000152.html",
+            "name":"三洋（SANYO）KFRD-35GW/H1-B空调",
+            "operADHref":"",
+            "price":2990,
+            "productId":"9100025831",
+            "productType":"jydq-prd",
+            "programId":"111111111",
+            "selltype":"1",
+            "shelfCtgy":"AJ01",
+            "shopName":"",
+            "shopNo":"",
+            "sku":"1000040291",
+            "skuId":"1000040291",
+            "skuNo":"1000000152",
+            "skuNoMap":{
+                "1000009775":"1000000152"
+            },
+            "skuType":"ZSP",
+            "stats":1,
+            "suitSku":[
+
+            ],
+            "templateId":"m10004",
+            "threeDflag":false,
+            "vipShopFlag":"0"
+        }
+    },
+    "storeConfiguration":{
+        "newsUrl":"http://news.atguat.com.cn/",
+        "qiangSite":"http://q.atguat.com.cn",
+        "gome.stage.newsTopic":"newsCount_uat",
+        "gome.stage.newsTags":"newsCount_increment",
+        "errorUrl":"http://www.atguat.com.cn/ec/errorpage.html",
+        "ssoLoginURL":"http://login.atguat.com.cn/login",
+        "gccUrl":"http://gcc.ds.atguat.com.cn/",
+        "ssoRegisterURL":"http://reg.atguat.com.cn/register/index/person",
+        "cssserver":"http://css.atguat.com.cn/css",
+        "qdsUrl":"http://qds.atguat.com.cn",
+        "appserver":"http://app.atguat.net.cn/images",
+        "imageserver":"http://img.atguat.net.cn/images",
+        "errorTuanUrl":"http://www.atguat.com.cn/ec/errorpage.html",
+        "reviewSite":"http://review.atguat.com.cn",
+        "tuanSiteAjax":"http://ajax.tuan.atguat.com.cn",
+        "jsserver":"http://js.atguat.com.cn/js",
+        "sync":"false",
+        "tuanSite":"http://tuan.atguat.com.cn",
+        "itemSite":"http://item.atguat.com.cn",
+        "mallSite":"http://mall.atguat.com.cn",
+        "protocol":"http",
+        "secureURL":"http://g.atguat.com.cn",
+        "dynSite":"http://g.atguat.com.cn",
+        "jsonServer":"",
+        "stageImageServer":"http://img.atguat.net.cn",
+        "stageJsServer":"http://js.atguat.com.cn",
+        "gomehigo":"http://www.gomehigo.hk",
+        "gccCacheUrl":"http://10.126.45.28:7033/prdws/pages/pageData.jsp?keyword=gome-header&isShow=clean",
+        "stageCssServer":"http://css.atguat.com.cn",
+        "preJsonURL":"",
+        "gome.stage.newsMQAdress":"10.58.50.204:9876",
+        "staSite":"http://www.atguat.com.cn",
+        "cookieDomain":".atguat.com.cn",
+        "pictureserver":"http://img.atguat.net.cn/image",
+        "storeSite":"/ec/homeus",
+        "searchAPI":"http://api.search.atguat.com.cn",
+        "indexView":"false",
+        "ssSite":"http://ss.atguat.com.cn",
+        "gomePlus":"https://api-bs-pre.gomeplus.com"
+    }
+}
+
+
+
